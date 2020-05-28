@@ -8,4 +8,7 @@ public class CustomList {
         sort.sort();
     }
 
+    public void setCustomSort(ISort sort){
+        this.sort = sort;
+    }
 }
